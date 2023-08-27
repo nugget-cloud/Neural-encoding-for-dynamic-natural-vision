@@ -50,18 +50,18 @@ Getting Started
 
 Before delving deep into the data, ensure you have a solid grasp of the basics.
 
-    Neuroimaging and fMRI: Understand the basics of how functional magnetic resonance imaging (fMRI) works and the type of data it generates.
-        Neuroimaging Primer by Harvard Medical School
-    Electrocorticography (ECoG): Given that your data might involve ECoG recordings, familiarize yourself with this technique.
-        ECoG Basics
+Neuroimaging and fMRI: Understand the basics of how functional magnetic resonance imaging (fMRI) works and the type of data it generates.
+Neuroimaging Primer by Harvard Medical School
+Electrocorticography (ECoG): Given that your data might involve ECoG recordings, familiarize yourself with this technique.
+ECoG Basics
 
 2. Data Understanding:
 
 Dive deeper into the dataset you have.
 
-    MATLAB Data Structures in Python: Understand how MATLAB structures are represented in Python.
-        SciPy's MATLAB IO
-    Dataset Exploration: Utilize the preprocessing script and the code provided to familiarize yourself with the data's structure and contents.
+MATLAB Data Structures in Python: Understand how MATLAB structures are represented in Python.
+SciPy's MATLAB IO
+Dataset Exploration: Utilize the preprocessing script and the code provided to familiarize yourself with the data's structure and contents.
 
 3. Data Visualization:
 
