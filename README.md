@@ -46,19 +46,61 @@ Basic Architecture
         Once satisfied with the model's performance, consider deploying it as a web service or integrating it into a larger system for real-time or batch predictions.
 
 Getting Started
+1. Foundational Knowledge:
 
-    Setup Environment:
-        Install all required libraries and tools.
-        Clone this repository to your local machine.
+Before delving deep into the data, ensure you have a solid grasp of the basics.
 
-    Data Acquisition:
-        Navigate to OpenNeuro and download the chosen dataset.
-        Store the dataset in an accessible directory and note the path for future steps.
+    Neuroimaging and fMRI: Understand the basics of how functional magnetic resonance imaging (fMRI) works and the type of data it generates.
+        Neuroimaging Primer by Harvard Medical School
+    Electrocorticography (ECoG): Given that your data might involve ECoG recordings, familiarize yourself with this technique.
+        ECoG Basics
 
-    Run the Model:
-        Execute the preprocessing script to clean and prepare the data.
-        Run the training script to initiate model training.
-        Once training is complete, evaluate the model using the evaluation script.
+2. Data Understanding:
+
+Dive deeper into the dataset you have.
+
+    MATLAB Data Structures in Python: Understand how MATLAB structures are represented in Python.
+        SciPy's MATLAB IO
+    Dataset Exploration: Utilize the preprocessing script and the code provided to familiarize yourself with the data's structure and contents.
+
+3. Data Visualization:
+
+    Python Libraries: Familiarize yourself with data visualization libraries in Python.
+        Matplotlib
+        Seaborn
+    Stimuli Visualization: Use the extracted stimulus data to create visualizations, helping understand what participants were presented with.
+    Response Visualization: Plot and analyze the keyCode or other response variables over time to see patterns or trends.
+
+4. Data Pre-processing:
+
+    Noise Reduction: Understand techniques to reduce noise in neuroimaging data.
+        fMRI Data Cleaning
+    Normalization & Scaling: Ensure data is on a consistent scale, especially if combining datasets or working with various recording methods.
+
+5. Data Analysis:
+
+    Time-Series Analysis: Given the temporal nature of the data, familiarize yourself with time-series analysis techniques.
+        Time-Series Forecasting with Python
+    Correlation Analysis: Explore correlations between the stimuli and responses.
+        Pearson correlation in Python
+
+6. Advanced Techniques:
+
+    Machine Learning: Explore machine learning techniques to model the relationship between stimuli and responses.
+        Scikit-learn Tutorials
+    Neural Networks & Deep Learning: For more advanced modeling, consider deep learning techniques, especially if you're aiming to predict or classify neurological responses.
+        TensorFlow Tutorials
+        PyTorch Tutorials
+
+7. Documentation & Communication:
+
+    Project Documentation: Continuously document your findings, methodologies, and codes.
+    Communication: Consider presenting your results using visual aids, plots, and understandable language to both technical and non-technical audiences.
+
+8. Feedback & Iteration:
+
+    Seek Feedback: Regularly seek feedback on your analyses, methodologies, and findings. This could be from peers, mentors, or online communities.
+    Iterate: Data analysis is an iterative process. Based on feedback and new findings, you may need to revisit previous steps and refine your approaches
 
 Contribution
 
