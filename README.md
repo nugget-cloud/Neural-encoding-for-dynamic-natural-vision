@@ -45,6 +45,8 @@ Basic Architecture
     Deployment (Optional):
         Once satisfied with the model's performance, consider deploying it as a web service or integrating it into a larger system for real-time or batch predictions.
 
+
+
 Getting Started
 1. Foundational Knowledge:
 
@@ -65,42 +67,41 @@ Dataset Exploration: Utilize the preprocessing script and the code provided to f
 
 3. Data Visualization:
 
-    Python Libraries: Familiarize yourself with data visualization libraries in Python.
-        Matplotlib
-        Seaborn
-    Stimuli Visualization: Use the extracted stimulus data to create visualizations, helping understand what participants were presented with.
-    Response Visualization: Plot and analyze the keyCode or other response variables over time to see patterns or trends.
+Python Libraries: Familiarize yourself with data visualization libraries in Python.
+    Matplotlib
+    Seaborn
+Stimuli Visualization: Use the extracted stimulus data to create visualizations, helping understand what participants were presented with.
+Response Visualization: Plot and analyze the keyCode or other response variables over time to see patterns or trends.
 
 4. Data Pre-processing:
 
-    Noise Reduction: Understand techniques to reduce noise in neuroimaging data.
-        fMRI Data Cleaning
-    Normalization & Scaling: Ensure data is on a consistent scale, especially if combining datasets or working with various recording methods.
+Noise Reduction: Understand techniques to reduce noise in neuroimaging data.
+    fMRI Data Cleaning
+Normalization & Scaling: Ensure data is on a consistent scale, especially if combining datasets or working with various recording methods.
 
 5. Data Analysis:
 
-    Time-Series Analysis: Given the temporal nature of the data, familiarize yourself with time-series analysis techniques.
-        Time-Series Forecasting with Python
+Time-Series Analysis: Given the temporal nature of the data, familiarize yourself with time-series analysis techniques.
+    Time-Series Forecasting with Python
     Correlation Analysis: Explore correlations between the stimuli and responses.
-        Pearson correlation in Python
+    Pearson correlation in Python
 
 6. Advanced Techniques:
 
-    Machine Learning: Explore machine learning techniques to model the relationship between stimuli and responses.
-        Scikit-learn Tutorials
-    Neural Networks & Deep Learning: For more advanced modeling, consider deep learning techniques, especially if you're aiming to predict or classify neurological responses.
-        TensorFlow Tutorials
-        PyTorch Tutorials
+Machine Learning: Explore machine learning techniques to model the relationship between stimuli and responses.
+    Scikit-learn Tutorials
+Neural Networks & Deep Learning: For more advanced modeling, consider deep learning techniques, especially if you're aiming to predict or classify neurological responses.
+    TensorFlow Tutorials
+    PyTorch Tutorials
 
 7. Documentation & Communication:
-
-    Project Documentation: Continuously document your findings, methodologies, and codes.
-    Communication: Consider presenting your results using visual aids, plots, and understandable language to both technical and non-technical audiences.
+ Project Documentation: Continuously document your findings, methodologies, and codes.
+Communication: Consider presenting your results using visual aids, plots, and understandable language to both technical and non-technical audiences.
 
 8. Feedback & Iteration:
 
-    Seek Feedback: Regularly seek feedback on your analyses, methodologies, and findings. This could be from peers, mentors, or online communities.
-    Iterate: Data analysis is an iterative process. Based on feedback and new findings, you may need to revisit previous steps and refine your approaches
+Seek Feedback: Regularly seek feedback on your analyses, methodologies, and findings. This could be from peers, mentors, or online communities.
+Iterate: Data analysis is an iterative process. Based on feedback and new findings, you may need to revisit previous steps and refine your approaches
 
 Contribution
 
