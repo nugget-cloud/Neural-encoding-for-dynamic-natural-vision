@@ -4,7 +4,7 @@ ECoG and Visual Stimuli Processing Documentation
 
 Objective:
 -----------
-The main goal was to train a model that can predict visual stimuli (images) from iEEG data. The hypothesis is that the iEEG data, which is electrical activity from the brain, will have patterns that correlate with the visual stimuli the subject was seeing.
+The main goal is to train a model that can predict visual stimuli (images) from iEEG data. The hypothesis is that the iEEG data, which is electrical activity from the brain, will have patterns that correlate with the visual stimuli the subject was seeing.
 
 Steps Taken:
 -------------
@@ -36,7 +36,7 @@ Next Steps for Improvement:
 3. **Feature Extraction**: Instead of using raw iEEG data, extract meaningful features that could be more informative for the model.
 4. **Regularization**: Apply techniques like dropout or weight decay to prevent overfitting.
 5. **Hyperparameter Tuning**: Systematically search for the best hyperparameters for the model.
-6. **Domain Knowledge**: Incorporate knowledge from neuroscience to inform the model building process.
+6. **Domain Knowledge**: Incorporate knowledge from neuroscience to inform the model-building process.
 
 Remarks on the Stimuli Image Portion:
 --------------------------------------
